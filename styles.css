@@ -14,12 +14,19 @@ header {
     background: #0d1117;
 }
 
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
 nav ul{
     list-style: none;
     display: flex;
     gap: 25px;
     margin: 0;
     padding: 0;
+    justify-content: center;
 }
 
 nav ul li a{
@@ -27,6 +34,7 @@ nav ul li a{
     color: #ccc;
     font-size: 15px;
     transition: color 0.3s;
+    align-items: center;
 }
 
 nav ul li a:hover,
