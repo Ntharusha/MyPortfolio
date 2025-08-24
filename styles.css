@@ -1,7 +1,52 @@
-.body {
+body {
     background:#0d1117;
     color:#fff;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #0d1117;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #00c6ff;
+}
+
+/* Add Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 60px;
+    min-height: 90vh;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+
+
